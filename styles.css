@@ -1,0 +1,34 @@
+body{
+    background-color: aliceblue;
+}
+h1, h3{
+    text-align: center;
+    padding: 75px 0px 0px 0px;
+    color: midnightblue;
+}
+div{
+    text-align: center;
+    padding: 50px 0px 0px 0px; 
+}
+#oAction, #roundRes{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#tally{
+    padding: 0px 0px 0px 0px;
+}
+#headings{
+    padding: 0px 0px 0px 0px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: rgb(136, 18, 9);
+}
+#scores{
+    padding: 0px 0px 0px 0px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
