@@ -37,8 +37,8 @@ function game(playerSelection)
     }
     if(computerPoints == 5 || playerPoints == 5){
         let winner = ((playerPoints>computerPoints)?"Player":"Computer")+" Wins!";
-        dec = document.querySelector("#oAction");
-        dec.textContent = winner;
+        dec = document.querySelector("#gameRes");
+        dec.textContent = winner ;
         document.querySelector("#roundRes").textContent="Reload page to play again";
         dec.style.fontSize = "50px";
         dec.style.backgroundColor = "Green";
