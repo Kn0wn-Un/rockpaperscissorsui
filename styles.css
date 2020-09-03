@@ -31,4 +31,7 @@ div{
     flex-direction: row;
     justify-content: space-evenly;
 }
+#playerScore, #computerScore{
+    font-size: 50px;
+}
 
